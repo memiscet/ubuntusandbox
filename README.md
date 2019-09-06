@@ -40,3 +40,41 @@ you will see jpyter notebook application on the browser.
 ```
 
 
+```
+Mac installation is also same but for detailed instructions execute following steps
+
+go to internet browser and navigate to 
+https://github.com/memiscet/ubuntusandbox
+click clone or download
+
+click download zip
+
+after dowload is comleted 
+make sure that the file is completely downloaded
+
+start teminal
+execute following command
+
+ls -ltr ~/Downloads/ubuntusandbox-master.zip 
+
+you will and example like following
+-rw-r--r--@ 1 memiscet  staff  32684 Aug 28 19:05 /Users/memiscet/Downloads/ubuntusandbox-master.zip
+
+if the file is there execute following command
+cd ~ 
+
+cp ~/Downloads/ubuntusandbox-master.zip . #<----copy and paste this whole line
+
+unzip ubuntusandbox-master.zip
+
+cd ubuntusandbox-master
+
+vagrant up
+
+after successful installation you will be given a url like
+http://127.0.0.1:8800/?token=363853a1540ccbe03831b44f320e4246c6f3c8aa992bc4da
+
+copy that url from the terminal and past it to your browser.
+
+you will see jpyter notebook application on the browser.
+```
